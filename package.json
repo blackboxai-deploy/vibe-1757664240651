@@ -4,14 +4,14 @@
   "description": "Gaia-X Multi-Cloud Orchestration Worker",
   "main": "src/index.js",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "node init && wrangler dev",
     "deploy": "wrangler deploy",
     "deploy:production": "wrangler deploy --env production",
     "tail": "wrangler tail",
     "test": "echo \"No tests specified\" && exit 0",
     "next:dev": "next dev",
-    "build": "next build --no-lint",
-    "start": "next start",
+    "build": "node init && next build --no-lint",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "keywords": [

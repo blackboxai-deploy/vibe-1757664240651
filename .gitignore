@@ -5,8 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -46,7 +44,6 @@ __pycache__/
 gaia-x-config.json
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -58,3 +55,4 @@ Thumbs.db
 # Temporary files
 .tmp/
 temp/
+config.bat
