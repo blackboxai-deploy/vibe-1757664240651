@@ -1,0 +1,45 @@
+{
+  "name": "gaia-x-worker",
+  "version": "1.0.0",
+  "description": "Gaia-X Multi-Cloud Orchestration Worker",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:production": "wrangler deploy --env production",
+    "tail": "wrangler tail",
+    "test": "echo \"No tests specified\" && exit 0",
+    "next:dev": "next dev",
+    "build": "next build --no-lint",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "azure",
+    "gcloud",
+    "orchestration",
+    "voice-commands",
+    "webhook"
+  ],
+  "author": "Gaia-X Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "crypto-browserify": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "shadcn-ui": "latest"
+  }
+}
