@@ -1,0 +1,39 @@
+name = "gaia-x"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables
+[env.production.vars]
+ENVIRONMENT = "production"
+
+# KV namespace bindings
+[[env.production.kv_namespaces]]
+binding = "GAIA_KV"
+id = "c87f7299cfae4bd08e54dcfab3d473e2"
+preview_id = "c87f7299cfae4bd08e54dcfab3d473e2"
+
+# Development environment
+[env.development]
+name = "gaia-x-dev"
+
+[env.development.vars]
+ENVIRONMENT = "development"
+
+[[env.development.kv_namespaces]]
+binding = "GAIA_KV"
+id = "c87f7299cfae4bd08e54dcfab3d473e2"
+preview_id = "c87f7299cfae4bd08e54dcfab3d473e2"
+
+# Routes for custom domain (optional)
+# routes = [
+#   { pattern = "gaia-x.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
+
+# Build configuration
+[build]
+command = ""
+
+# Triggers for development
+[triggers]
+crons = []
