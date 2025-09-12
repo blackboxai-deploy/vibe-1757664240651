@@ -1,0 +1,34 @@
+# Azure Functions Core Tools
+azure-functions
+azure-functions-worker
+
+# HTTP and API libraries
+requests
+aiohttp
+
+# JSON processing
+jsonschema
+
+# Authentication and security
+azure-identity
+azure-keyvault-secrets
+
+# Logging and monitoring
+azure-applicationinsights
+
+# Additional utilities
+python-dotenv
+pydantic
+
+# Voice processing (if needed)
+speech-recognition
+azure-cognitiveservices-speech
+
+# Google Cloud SDK (for orchestration)
+google-cloud-core
+google-cloud-functions
+
+# Development dependencies
+pytest
+black
+flake8
